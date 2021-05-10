@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <menuitem name="Inventory" id="menu_stock_root" sequence="1"
+        web_icon="stock,static/description/icon.png"/>
+
+    <menuitem id="menu_stock_inventory_control" name="Master Data" parent="menu_stock_root" action="module_parent_test.master_inventory"/>
+
+    <menuitem id="module_parent_test.menu_warehouse_report" name="Reporting" sequence="99" parent="menu_stock_root" />
+
+
+
+
+</odoo>
